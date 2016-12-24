@@ -53,7 +53,7 @@ public class Example
         {
             if(helper[helperLeft]<= helper[helperRight])
             {
-                array[current]= helper[helperRight];
+                array[current]= helper[helperLeft];
                 helperLeft++;
             }
             else
