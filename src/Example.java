@@ -64,7 +64,7 @@ public class Example
             current++;
         }
         int remaining = middle-helperLeft;
-        for(int i =0; i<= remaining; i++)
+        for(int i =0; i< remaining; i++)
         {
             array[current+i]= helper[helperLeft+i];
         }
