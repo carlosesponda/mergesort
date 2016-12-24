@@ -11,14 +11,14 @@ public class Example
         Random rand = new Random();
         Example n = new Example();
         int array[] = new int [100];
-        for (int i:array)
+        for (int i=0; i<array.length; i++)
         {
             array[i]= rand.nextInt(100)+1;
             System.out.print(""+array[i]+" ");
         }
         n.mergesort(array);
         System.out.println("");
-        for(int i: array)
+        for(int i=0; i<array.length;i++)
         System.out.print(""+array[i]+" ");
 
     }
